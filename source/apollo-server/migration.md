@@ -87,6 +87,7 @@ addMockFunctionsToSchema({
 
 graphQLServer.use('/graphql', bodyParser.json(), apolloExpress({
   schema: executableSchema,
+  context: {},
 }));
 
 graphQLServer.use('/graphiql', graphiqlExpress({
