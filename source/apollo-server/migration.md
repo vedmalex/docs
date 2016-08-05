@@ -11,6 +11,7 @@ The most notable changes are:
 - `apolloExpress` no longer accepts shorthand type definitions
 - `apolloExpress` doesn't have the `resolvers`, `mocks` and `connectors` options.
 - `apolloExpress` doesn't include GraphiQL any more
+- don't forget to setup default `context` to empty object `{}`
 - Apollo Server no longer accepts GET requests or parameters in the URL
 - `apolloExpress` no longer parses the HTTP body automatically
 
